@@ -12,6 +12,9 @@ export default class Hello extends React.Component<HelloProps, any>{
   render() {
     const { name } = this.props;
 
+    
+    
+
     return (
       <h1>Hello {name} lero</h1>
     );
