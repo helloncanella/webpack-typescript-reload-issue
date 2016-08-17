@@ -1,0 +1,29 @@
+{
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "classic",
+    "experimentalDecorators": true,
+    "jsx": "react"
+  },
+  "filesGlob": [
+    "src/**/*.tsx",
+    "src/**/*.ts",
+    "typings/**/*.ts"
+  ],
+  "files": [
+    "src/client.tsx",
+    "src/HelloApp/client/Hello.tsx",
+    "src/HelloApp/client/HelloApp.tsx",
+    "src/server.ts",
+    "typings/globals/meteor/index.d.ts",
+    "typings/globals/react-dom/index.d.ts",
+    "typings/globals/react/index.d.ts",
+    "typings/index.d.ts"
+  ]
+}
